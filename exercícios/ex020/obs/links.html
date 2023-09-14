@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        a {
+
+            text-decoration: none;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+
+        a::after {
+            content: ' ⇦';
+            color: rgb(82, 82, 82);
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        a::before {
+            content: '⇨ ';
+            color: rgb(82, 82, 82);
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .especial {
+            color: darkblue;
+        }
+        
+        .especial:hover {
+            color: white;
+            background-color: lightcoral;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCtFIztPXCynrtZz5dfFVsxA">Confira meu canal no YouTube</a></li>
+        <li><a href="https://www.linkedin.com/in/douglas-maciel-de-ara%C3%BAjo-350928225/" class="especial">Confira meu LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/douglas.m.araujo/" class="especial">Confira meu Instagram</a></li>
+    </ul>
+</body>
+</html>

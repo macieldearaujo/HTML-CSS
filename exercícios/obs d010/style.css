@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+@font-face {
+    font-family: Android;
+    src: url(Fonte/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #c9cca9;
+}
+
+header {
+    background-image: linear-gradient(180deg, #248C53, #063A1C);
+    height: 220px;
+    padding-top: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header > h1 {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+header > nav {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+header > p {
+    margin: 10px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 30px 30px 0px;
+    padding: 6px;
+}
+
+.especial {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+main {
+    margin-bottom: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.364);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 5px 5px;
+    display: flexbox;
+}
+
+.conteudo > p {
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+.conteudo > h2 {
+    font-family: 'Android';
+    color: green;
+    margin-bottom:20px;
+}
+
+main > h3 {
+    background-image: linear-gradient(90deg, rgb(152, 196, 152), rgb(255, 255, 255));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+main > h2, h3 {
+    margin: 15px 0px 15px 0px;
+    font-family: 'Android';
+    color: green;
+    font-weight: normal;
+    padding: 2px;
+    background-image: linear-gradient(90deg, rgb(208, 255, 208), white);
+}
+
+img {
+    display: block;
+    margin: 10px auto 10px auto;
+
+}
+p > a {
+    background-color: rgb(92, 212, 138);
+    color: rgb(0, 70, 0);
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+}
+
+p > a::after {
+    content: ' 📎';
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+#lista {
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border-radius: 20px;
+    background-color: #83E1AD;
+    width: auto;
+}
+
+#conteudolista > p {
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+
+
+#lista > h4 {
+    padding: 10px;
+    background-color: rgb(36, 79, 36);
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px;
+}
+
+#conteudolista {
+    padding: 30px;
+}
+
+.divisao {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#conteudolista > a {
+    text-decoration: none;
+    color: rgb(0, 185, 0);
+}
+
+#conteudolista > a::after {
+    content: ' 📎';
+}
+
+#video {
+    margin-top: 10px;
+    background-color: rgb(0, 85, 0);
+    padding: 30px;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(10, 69, 26);
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+}
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+nav > a:hover {background-color: lightgreen;}

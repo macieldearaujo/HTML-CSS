@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            /* 
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas:
+            em, rem, vw, ex, %
+            */
+            font-style: italic;
+            font-family: 'work-sans', sans-serif; /*O navegador vai selecionar uma fonte, se não for existir no armazenamento do dispositivo esse estilo de fonte, ele vai escolher a próxima, então, o melhor a se fazer é colocar uma fonte genérica no final*/
+            font-weight: 100; /*O font-weight possui diversos valores: 100, 200, 300, 400, 500, 600, 700, 800, 900, lighter, normal, bold e bolder*/
+            font-size: 1em; /*Recomendado px (abosluto) e em (relativo) SOMENTE*/
+            /*shorthand font = font-style => font-weight => font-size => font-family*/
+            font: italic, 200, 1em, 'work-sans', sans-serif;
+        }
+
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com familias de fontes</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nemo quam exercitationem est pariatur optio eius corrupti. Eaque numquam totam dicta vel maiores sed illo illum, ratione corporis reprehenderit vero.
+        Eveniet atque ratione rem rerum temporibus non quis deserunt consequatur. Architecto omnis reprehenderit deserunt soluta magnam asperiores, in ex sed laboriosam facere qui corporis temporibus nobis debitis odit quidem velit.
+        Vitae laudantium id possimus natus non. Nam accusantium earum natus vel unde. Iure sapiente ipsa temporibus? At impedit saepe nisi dolore adipisci commodi, officiis sit voluptas molestiae ratione aliquam laboriosam?
+        Soluta necessitatibus nostrum velit recusandae eius omnis sunt! Repudiandae, incidunt pariatur. Asperiores ad sunt incidunt id dolorem ipsam dolores debitis dolorum magnam repudiandae! Odio, neque quo? Sint aut cupiditate eum.
+    </p>
+    <p>Dignissimos fuga voluptas ad voluptatibus, aliquid consequuntur eum distinctio? Magnam, laboriosam atque temporibus alias ea rem delectus, nostrum molestias id voluptatibus, aliquid quas! Fugiat distinctio minima eaque neque aliquam blanditiis.</p>
+    <h2>Tipos de Fonte</h2>
+    <ul>
+        <li style="font-family: times new roman;">Fonte Serifada. Exemplo: Times New Roman.</li>
+        <li>Fonte Não Serifada. Exemplo: Arial.</li>
+        <li style="font-family: Edwardian Script ITC;">Fonte Hand-writing. </li>
+        <li style="font-family: broadway;">Fonte Display</li>
+    </ul>
+</body>
+</html>

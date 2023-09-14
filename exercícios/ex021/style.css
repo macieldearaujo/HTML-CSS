@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-color: gray;
+    margin: 0px;
+}
+
+nav {
+    background-image: linear-gradient(to top, darkblue, rgb(0, 0, 47));
+    color: black;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+nav > h1 {
+    color: white;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu {
+    width: 1000px;
+    height: 27px;
+    margin: auto;
+    box-shadow: 1px 3px 5px black; 
+    /***********************************************************************************************************************************************
+    box-shadow: 1px 1px 1px black => PRIMEIRO PARÂMETRO: HORIZONTAL; SEGUNDO PARÂMETRO: VERTICAL; TERCEIRO: COR
+    ***********************************************************************************************************************************************/
+}
+
+#megamenu {
+    display: inline-block;
+}
+
+#megamenu > span {
+    margin-right: 2px;
+}
+
+nav > h1 {
+    text-align: center;
+}
+
+span > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+span > a:hover {
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    padding: 2px;
+}
+
+a > section {
+    display: none;
+}
+
+
+img {
+    width: 400px;
+}
+
+#gleisi-hoffmann {
+    margin: auto;
+    width: 700px;
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+main > h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main > h2 {
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+main > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+}
+
+section {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
